@@ -1,0 +1,178 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Member</title>
+
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    header {
+        background-color: #4a90e2;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        background-color: #4a90e2;
+        color: white;
+        margin-top: auto;
+    }
+
+    .section-title {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 5px;
+        color: #444;
+    }
+
+    .label {
+        display: inline-block;
+        background-color: #4a90e2;
+        color: white;
+        padding: 6px 14px;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .single-container {
+        width: 95%;
+        max-width: 900px;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        background: #ffffff;
+        width: 230px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        text-align: center;
+        transition: 0.3s ease;
+        min-height: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        background: #ddd;
+    }
+
+    .card-title {
+        background: #ff7b94;
+        color: #fff;
+        padding: 12px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .card p {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .back-btn {
+        display:inline-block;
+        margin: 15px;
+        padding:10px 15px;
+        background-color:#4a90e2;
+        color:white;
+        border-radius:5px;
+        font-weight:bold;
+        text-decoration:none;
+    }
+
+    .grid-container {
+        width: 90%;
+        max-width: 1100px;
+        margin: 20px auto 40px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 40px;
+        justify-items: center;
+        padding: 10px 0;
+}
+
+    @media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit,minmax(230px, 1fr));
+    }
+    }
+
+    @media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit,minmax(230px, 1fr));
+    }
+    }
+    </style>
+
+
+    </head>
+
+    <body>
+
+    <header>
+    <h1>Komunitas Ambatron</h1>
+    <p>Welcome to Ngawi</p>
+    </header>
+
+    <div class="single-container">
+    <span class="label">ADMIN</span>
+    <div class="card">
+        <img src="ambagan.jpg" alt="Mr Amba">
+        <div class="card-title">Sir. Amba</div>
+        <p>Jangan banyak nyocot atau kamu dihitamkan</p>
+        <a class="back-btn" href="index.html">← Back</a>
+    </div>
+    </div>
+
+    <div class="section-title"><span class="label">MEMBERS</span></div>
+
+    <div class="grid-container">
+    <div class="card"><img src="Rusdi.jpg"><div class="card-title">Rusdi Ngawi Iskandar</div></div>
+    <div class="card"><img src="goblincoc.jpg"><div class="card-title">Goblin Ethanol</div></div>
+    <div class="card"><img src="Ananto.jpg"><div class="card-title">Ananto Gunung Kidul</div></div>
+    <div class="card"><img src="sigitrendang.jpg"><div class="card-title">Sigit Rendang</div></div>
+    <div class="card"><img src="mykisah.jpg"><div class="card-title">Imut Itam Kesukaan Karbit</div></div>
+    <div class="card"><img src="yoel.jpg"><div class="card-title">Yoel Manurung</div></div>
+    <div class="card"><img src="yuda.jpg"><div class="card-title">Yuda Bakwan</div></div>
+    <div class="card"><img src="Pace.jpg"><div class="card-title">Pace Misael</div></div>
+    <div class="card"><img src="spidler.jpg"><div class="card-title">Abdul Shitler</div></div>
+    <div class="card"><img src="Fuad.jpg"><div class="card-title">Fuad Musang Sunda</div></div>
+    <div class="card"><img src="sijek.jpg"><div class="card-title">Sijek Anak Pohon</div></div>
+    <div class="card"><img src="rehan.jpg"><div class="card-title">Rehan Wangsaf</div></div>
+    </div>
+
+    <footer>
+    <p>Ervan Kurniawan & Lois Marcello XII-G</p>
+    </footer>
+
+    </body>
+    </html>
